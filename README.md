@@ -1,2 +1,1 @@
-# docker-jacksum
-Jacksum on Docker
+# Jacksum on Docker
