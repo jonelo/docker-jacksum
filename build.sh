@@ -16,6 +16,7 @@ fi
 
 # Create jacksum launcher
 printf "#!/bin/bash\njava -jar /opt/jacksum/jacksum-%s.jar \"\$@\"\n" "$VERSION" > jacksum
+chmod +x jacksum
 
 # remove any older images
 docker image remove "$IMAGE_NAME:$VERSION"
