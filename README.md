@@ -8,6 +8,8 @@ Install Docker (testet on Ubuntu 24.04.1)
 ./install-docker.sh
 ```
 
+Credits: https://linuxiac.com/how-to-install-docker-on-ubuntu-24-04-lts/
+
 ## Downoad
 ```
 docker pull jonelo/jacksum
