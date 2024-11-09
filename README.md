@@ -1,8 +1,33 @@
 # Jacksum on Docker
 
-## Download
+## Prerequisites
 
-Go to https://hub.docker.com/r/jonelo/jacksum
+Install Docker (testet on Ubuntu 24.04.1)
+
+```
+./install-docker.sh
+```
+
+## Downoad
+```
+docker pull jonelo/jacksum
+```
+
+See also https://hub.docker.com/r/jonelo/jacksum
+
+## Usage
+
+```
+docker run jonelo/jacksum
+```
+
+get the entire help by typing
+
+```
+docker run jonelo/jacksum jacksum -h
+```
+
+See also https://github.com/jonelo/jacksum/wiki/Manpage
 
 ## Update, Build, Deploy
 
