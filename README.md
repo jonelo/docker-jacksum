@@ -11,7 +11,7 @@ Go to https://hub.docker.com/r/jonelo/jacksum
 Update to the latest Jacksum release.
 
 ```
-./update.sh 3.5.0
+./update.sh 3.7.0
 ```
 
 Note: `update.sh` requires `update_property` from https://github.com/jonelo/bashberries/
