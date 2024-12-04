@@ -2,13 +2,21 @@
 
 ## Prerequisites
 
+### Docker
+
 Install Docker (testet on Ubuntu 24.04.1)
 
 ```
 ./install-docker.sh
 ```
 
-Credits: https://linuxiac.com/how-to-install-docker-on-ubuntu-24-04-lts/
+> [!INFO]
+> Credits: https://linuxiac.com/how-to-install-docker-on-ubuntu-24-04-lts/
+
+### update_property
+
+Get a copy of `update_property` from https://github.com/jonelo/bashberries/
+
 
 ## Download
 ```
@@ -41,7 +49,8 @@ Update to the latest Jacksum release.
 ./update.sh 3.7.0
 ```
 
-Note: `update.sh` requires `update_property` from https://github.com/jonelo/bashberries/
+> [!NOTE]
+> `update.sh` requires `update_property`. See also the section Prerequisites.
 
 ### Build the Docker image
 
@@ -54,5 +63,3 @@ Note: `update.sh` requires `update_property` from https://github.com/jonelo/bash
 ```
 ./deploy.sh
 ```
-
-
