@@ -10,8 +10,9 @@ Install Docker (testet on Ubuntu 24.04.1)
 ./install-docker.sh
 ```
 
-> [!INFO]
-> Credits: https://linuxiac.com/how-to-install-docker-on-ubuntu-24-04-lts/
+> [!NOTE]
+> - Ubuntu: https://linuxiac.com/how-to-install-docker-on-ubuntu-24-04-lts/
+> - Debian: https://www.thomas-krenn.com/en/wiki/Docker_installation_on_Debian_12
 
 ### update_property
 
@@ -46,7 +47,7 @@ See also https://github.com/jonelo/jacksum/wiki/Manpage
 Update to the latest Jacksum release.
 
 ```
-./update.sh 3.7.0
+./update.sh 4.0.0
 ```
 
 > [!NOTE]
