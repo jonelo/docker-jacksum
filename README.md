@@ -4,7 +4,7 @@
 
 ### Docker
 
-Install Docker (testet on Ubuntu 24.04.1)
+Install Docker (tested on Ubuntu 24.04.1)
 
 ```
 ./install-docker.sh
